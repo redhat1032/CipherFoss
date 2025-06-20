@@ -1,1 +1,9 @@
-[gd_scene format=3]
+[gd_scene format=3 uid="uid://28c2cw4ylokj"]
+
+[node name="main" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="DirectionalLight3D"]
+
+[node name="WorldRoot" type="Node3D" parent="DirectionalLight3D/Camera3D"]
